@@ -1,7 +1,7 @@
 
-# Programming project
+# Programming Project - SVG To PNG Image Converter
 
-## Group elements
+## Group Elements
 
 1LEIC13_02
 
@@ -10,7 +10,7 @@
 - up202303834 Maria Carneiro de Sousa
 
 
-## Accomplished tasks
+## Accomplished Tasks
 
 Firstly, we declared every subclass and function in SVGElement.hpp, secondly we implemented them in SVGElement.cpp. Finally, we used readSVG.cpp to read the svg_file, extracting the geometrial figures in the svg image format as well as the transformations to be executed. With our code we managed to successfully extract and create the required geometrical figures, extract and apply the transformations to be applicated in them and, finally, to convert them to the png image format.
 
