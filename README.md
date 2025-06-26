@@ -21,11 +21,11 @@ Firstly, we declared every subclass and function in SVGElement.hpp, secondly we 
 - We have implemented the constructor for the Ellipse, Circle, Polyline, Line, Polygon and Rect classes.
 
 - We initialized the properties of the classes and subclasses:
-  -fill, radius and center for the ellipse and circle;
-  -vertex and stroke for the polyline;
-  -p1, p2 and stroke for the line;
-  -vertex and fill for the Polygon;
-  -c, widht, height and fill for the rect.
+  - fill, radius and center for the ellipse and circle;
+  - vertex and stroke for the polyline;
+  - p1, p2 and stroke for the line;
+  - vertex and fill for the Polygon;
+  - c, widht, height and fill for the rect.
 
 - The Ellipse class' constructor takes as its parameters a point, radius, with the two values of radii, a point, center, with the coordinates of its center and the fill, the color of the figure in order to build an ellipse.
 
