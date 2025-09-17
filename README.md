@@ -1,5 +1,5 @@
 
-# Programming Project - SVG To PNG Image Converter
+# L.EIC009 - Programming - SVG To PNG Image Converter
 
 ## Group Elements
 
