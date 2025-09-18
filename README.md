@@ -19,13 +19,6 @@ Nota : 19,4
 
 ## SVG To PNG Image Converter
 
-## Group Elements
-
-1LEIC13_02
-
-- up202304040 Leonor Alexandra Costa Azevedo
-- up202304692 Tomás Silva Morais
-- up202303834 Maria Carneiro de Sousa
 
 
 ## Accomplished Tasks
