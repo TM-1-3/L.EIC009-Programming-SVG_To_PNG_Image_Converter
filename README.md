@@ -1,5 +1,23 @@
+<img src='https://sigarra.up.pt/feup/pt/imagens/LogotipoSI' width="30%"/>
 
-# L.EIC009 - Programming - SVG To PNG Image Converter
+<h3 align="center">Licenciatura em Engenharia Informática e Computação<br>L.EIC009 - Programação<br> 2023/2024 </h3>
+
+---
+<h3 align="center"> Colaboradores &#129309 </h2>
+
+<div align="center">
+
+| Nome           | Número      |
+|----------------|-------------|
+| Leonor Azevedo | up202304040 |
+| Maria Sousa    | up202307037 |
+| Tomás Morais   | up202303834 |
+
+Nota : 19,4
+
+</div>
+
+## SVG To PNG Image Converter
 
 ## Group Elements
 
