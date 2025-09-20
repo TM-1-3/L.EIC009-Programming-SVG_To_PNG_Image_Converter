@@ -29,50 +29,64 @@ Grade : 19,4
 
 ## Accomplished Tasks
 
-Firstly, we declared every subclass and function in SVGElement.hpp, secondly we implemented them in SVGElement.cpp. Finally, we used readSVG.cpp to read the svg_file, extracting the geometrial figures in the svg image format as well as the transformations to be executed. With our code we managed to successfully extract and create the required geometrical figures, extract and apply the transformations to be applicated in them and, finally, to convert them to the png image format.
+First, we declared every subclass and function in `SVGElement.hpp`. Then, we implemented them in `SVGElement.cpp`. Finally, we used `readSVG.cpp` to read the `svg_file`, extracting the geometrical figures in the SVG image format as well as the transformations to be executed.  
 
-### <a id="svg-element-classes"></a>SVG Element Classes and Subclasses (SVGElements.hpp and SVGElements.cpp)
+With our code, we successfully extracted and created the required geometrical figures, applied the corresponding transformations, and ultimately converted them into the PNG image format.
 
-- We've declared and implemented subclasses of SVGElement for various SVG shapes, including Ellipse, Polyline, Polygon and their respective subclasses: Circle, Line and Rect. Each subclass of SVGElements includes their member functions that include draw, translate, rotate, scale and copy.
+### <a id="svg-element-classes"></a>SVG Element Classes and Subclasses (`SVGElements.hpp` and `SVGElements.cpp`)
 
-- We have implemented the constructor for the Ellipse, Circle, Polyline, Line, Polygon and Rect classes.
+- We declared and implemented subclasses of `SVGElement` for various SVG shapes, including `Ellipse`, `Polyline`, `Polygon`, and their respective subclasses: `Circle`, `Line`, and `Rect`.  
+  Each subclass of `SVGElement` includes member functions such as `draw`, `translate`, `rotate`, `scale`, and `copy`.
+
+- We implemented constructors for the classes `Ellipse`, `Circle`, `Polyline`, `Line`, `Polygon`, and `Rect`.
 
 - We initialized the properties of the classes and subclasses:
-  - fill, radius and center for the ellipse and circle;
-  - vertex and stroke for the polyline;
-  - p1, p2 and stroke for the line;
-  - vertex and fill for the Polygon;
-  - c, widht, height and fill for the rect.
+  - `fill`, `radius`, and `center` for `Ellipse` and `Circle`;
+  - `vertex` and `stroke` for `Polyline`;
+  - `p1`, `p2`, and `stroke` for `Line`;
+  - `vertex` and `fill` for `Polygon`;
+  - `c`, `width`, `height`, and `fill` for `Rect`.
 
-- The Ellipse class' constructor takes as its parameters a point, radius, with the two values of radii, a point, center, with the coordinates of its center and the fill, the color of the figure in order to build an ellipse.
+- The constructor of the `Ellipse` class takes a center point (`center`), two radii (`radius`), and the fill color (`fill`) to build an ellipse.
 
-- The Circle class, a subclass of Ellipse, is implemented with the Ellipse constructor that takes parameters for fill, center and radius, with the difference that the two radius have the same value, effectively creating a circle by setting both radii equal.
+- The `Circle` class, a subclass of `Ellipse`, is implemented using the `Ellipse` constructor, but with both radii equal, effectively creating a circle.
 
-- The Polyline class' constructor takes as its parameters a vector of points, vertex, representing the coordinates of its vertex and the stroke(color) of the figure, in order to build a group of interconnected finite lines.
+- The constructor of the `Polyline` class takes a vector of points (`vertex`), representing the coordinates of its vertices, and a stroke color (`stroke`) to build a group of interconnected finite lines.
 
-- The Line class, a subclass of Polyline, is implemented with the Polyline constructor, taking also the parameter for stroke with the difference that it takes only two points, p1 and p2, inside the vertex vector.
+- The `Line` class, a subclass of `Polyline`, is implemented using the `Polyline` constructor but only takes two points (`p1` and `p2`) in the `vertex` vector.
 
-- The Polygon class' constructor takes as its parameters a vector of points, vertex, representing the coordinates of its vertex, and fill, the color of the figure, in order to build a polygon.
+- The constructor of the `Polygon` class takes a vector of points (`vertex`) representing the coordinates of its vertices, and a fill color (`fill`) to build a polygon.
 
-- The Rect class is implemented as a subclass of Polygon, representing rectangles. Its constructor takes parameters for the upper-left corner, width, height, and fill of the figure.
+- The `Rect` class is implemented as a subclass of `Polygon`, representing rectangles. Its constructor takes the upper-left corner (`c`), width (`width`), height (`height`), and fill color (`fill`).
 
-- We implemented the member functions, draw, translate, rotate, scale and copy on each subclass, with slight alterations between them according to their respective properties, that successfully draw, move, rotate, increase or decrease its size, and create a duplicate, respectively, of the figure in which they are applicated.
+- We implemented the member functions `draw`, `translate`, `rotate`, `scale`, and `copy` in each subclass, with slight variations depending on their properties. These functions successfully draw, move, rotate, resize, and duplicate each figure.
 
-### Extraction and Manipulation of SVG Elements (readSVG.cpp)
+### <a id="extraction-and-manipulation-of-svg-elements-readsvgcpp"></a>Extraction and Manipulation of SVG Elements (`readSVG.cpp`)
 
-- With the help_svg function we identify the contents of the svg_file, whether it contains individual figures or a group of figures, extracting the respective parameters and, with the calls to the constructors of the classes and subclasses, creating the figure. Also, the function manages to identify the transformation, and the respective parameters, to be aplicated to all the figures, in the case of a group, that will be executed using the apply_transformation function.
+- With the function `help_svg`, we identify the contents of the `svg_file`, whether it contains individual figures or groups of figures.  
+  We extract the respective parameters and, by calling the class constructors, create the figures.  
+  The function also identifies transformations and their parameters to be applied to all figures in a group, executed via the `apply_transformation` function.
 
-- With the get_points function we intend to extract, from elements in svg_file, the points related to the figure which come in the format of a string separated by spaces and/or commas, in order for them to be used in other functions when they are required, such as the construction of the figure.
+- With the function `get_points`, we extract from the `svg_file` the points related to each figure.  
+  These points come as a string separated by spaces and/or commas and are then used for figure construction.
 
-- With the apply_transformation function, we manage to idenify the transformation to be applicated to each individual element, as well as the parameters related to it, and execute that respective transformation, with the calls to the respective member-function.
+- With the function `apply_transformation`, we identify the transformation to apply to each element, along with its parameters, and execute it via the corresponding member function.
+
 
 ## Compilation and Execution
 
 On the project´s main directory run:
 
-<a id="compilation"></a>**Compilation:** $ make clean all
+### <a id="compilation"></a>Compilation
 
-<a id="execution"></a>**Execution:** $ ./test
+```bash
+make clean all
+```
+### <a id="execution"></a>Execution
+
+```bash
+./test
+```
 
 
 
