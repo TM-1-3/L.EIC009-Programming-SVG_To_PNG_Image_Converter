@@ -17,7 +17,12 @@ Grade : 19,4
 
 </div>
 
-## SVG To PNG Image Converter
+# SVG To PNG Image Converter Project Report
+
+* [Accomplished Tasks](#accomplished-tasks) 
+  * [SVG Element Classes and Subclasses (SVGElements.hpp and SVGElements.cpp)](#svg-element-classes-and-subclasses-svgelementshpp-and-svgelementscpp)
+  * [Extraction and Manipulation of SVG Elements (readSVG.cpp)](#extraction-and-manipulation-of-svg-elements-readsvgcpp)
+* [Compilation and Running](#compilation-and-running)
 
 
 
@@ -25,7 +30,7 @@ Grade : 19,4
 
 Firstly, we declared every subclass and function in SVGElement.hpp, secondly we implemented them in SVGElement.cpp. Finally, we used readSVG.cpp to read the svg_file, extracting the geometrial figures in the svg image format as well as the transformations to be executed. With our code we managed to successfully extract and create the required geometrical figures, extract and apply the transformations to be applicated in them and, finally, to convert them to the png image format.
 
-**SVG Element Clases and Subclasses (SVGElements.hpp and SVGElements.cpp)**
+### SVG Element Clases and Subclasses (SVGElements.hpp and SVGElements.cpp)
 
 - We've declared and implemented subclasses of SVGElement for various SVG shapes, including Ellipse, Polyline, Polygon and their respective subclasses: Circle, Line and Rect. Each subclass of SVGElements includes their member functions that include draw, translate, rotate, scale and copy.
 
@@ -52,7 +57,7 @@ Firstly, we declared every subclass and function in SVGElement.hpp, secondly we 
 
 - We implemented the member functions, draw, translate, rotate, scale and copy on each subclass, with slight alterations between them according to their respective properties, that successfully draw, move, rotate, increase or decrease its size, and create a duplicate, respectively, of the figure in which they are applicated.
 
-**Extraction and Manipulation of SVG Elements (readSVG.cpp)**
+### Extraction and Manipulation of SVG Elements (readSVG.cpp)
 
 - With the help_svg function we identify the contents of the svg_file, whether it contains individual figures or a group of figures, extracting the respective parameters and, with the calls to the constructors of the classes and subclasses, creating the figure. Also, the function manages to identify the transformation, and the respective parameters, to be aplicated to all the figures, in the case of a group, that will be executed using the apply_transformation function.
 
