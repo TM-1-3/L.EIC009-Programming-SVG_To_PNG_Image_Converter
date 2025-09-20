@@ -20,7 +20,7 @@ Grade : 19,4
 # SVG To PNG Image Converter Project Report
 
 * [Accomplished Tasks](#accomplished-tasks) 
-  * [SVG Element Classes and Subclasses (SVGElements.hpp and SVGElements.cpp)](#svg-element-classes-and-subclasses-svgelementshpp-and-svgelementscpp)
+  * [SVG Element Classes and Subclasses (SVGElements.hpp and SVGElements.cpp)](#svg-element-classes)
   * [Extraction and Manipulation of SVG Elements (readSVG.cpp)](#extraction-and-manipulation-of-svg-elements-readsvgcpp)
 * [Compilation and Running](#compilation-and-running)
 
@@ -30,7 +30,7 @@ Grade : 19,4
 
 Firstly, we declared every subclass and function in SVGElement.hpp, secondly we implemented them in SVGElement.cpp. Finally, we used readSVG.cpp to read the svg_file, extracting the geometrial figures in the svg image format as well as the transformations to be executed. With our code we managed to successfully extract and create the required geometrical figures, extract and apply the transformations to be applicated in them and, finally, to convert them to the png image format.
 
-### SVG Element Clases and Subclasses (SVGElements.hpp and SVGElements.cpp)
+### <a id="svg-element-classes"></a>SVG Element Classes and Subclasses (SVGElements.hpp and SVGElements.cpp)
 
 - We've declared and implemented subclasses of SVGElement for various SVG shapes, including Ellipse, Polyline, Polygon and their respective subclasses: Circle, Line and Rect. Each subclass of SVGElements includes their member functions that include draw, translate, rotate, scale and copy.
 
