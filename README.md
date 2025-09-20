@@ -1,5 +1,9 @@
 <img src='https://sigarra.up.pt/feup/pt/imagens/LogotipoSI' width="30%"/>
 
+<p align="center">
+🌍 [English] (README.md) | 🇵🇹 [Português] (README.pt.md)
+</p>
+
 <h3 align="center">BSc in Informatics and Computing Engineering<br>L.EIC009 - Programming<br> 2023/2024 </h3>
 
 ---
