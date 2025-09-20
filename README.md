@@ -20,10 +20,10 @@ Grade : 19,4
 # SVG To PNG Image Converter Project Report
 
 * [Accomplished Tasks](#accomplished-tasks) 
-  * [SVG Element Classes and Subclasses (SVGElements.hpp and SVGElements.cpp)](#svg-element-classes)
-  * [Extraction and Manipulation of SVG Elements (readSVG.cpp)](#extraction-and-manipulation-of-svg-elements-readsvgcpp)
+  * [SVG Element Classes and Subclasses](#svg-element-classes)
+  * [Extraction and Manipulation of SVG Elements](#extraction-and-manipulation-of-svg-elements-readsvgcpp)
 * [Compilation and Running](#compilation-and-running)
-
+  * [Compilation](#compilation)
 
 
 ## Accomplished Tasks
@@ -69,7 +69,7 @@ Firstly, we declared every subclass and function in SVGElement.hpp, secondly we 
 
 On the project´s main directory run:
 
-**Compilation:** $ make clean all
+<a id="compilation"></a>**Compilation:** $ make clean all
 
 **Running:** $ ./test
 
