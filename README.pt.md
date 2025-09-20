@@ -76,9 +76,15 @@ Com o nosso código conseguimos extrair e criar corretamente as figuras geométr
 
 No diretório principal do projeto, correr:
 
-<a id="compilacao"></a>**Compilação:** $ make clean all
+<a id="compilacao"></a>**Compilação:**
 
-<a id="execucao"></a>**Execução:** $ ./test
+```bash
+make clean all
+
+<a id="execucao"></a>**Execução:**
+
+```bash
+./test
 
 
 ```bash
