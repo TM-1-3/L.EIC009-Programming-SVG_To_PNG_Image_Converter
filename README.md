@@ -22,8 +22,9 @@ Grade : 19,4
 * [Accomplished Tasks](#accomplished-tasks) 
   * [SVG Element Classes and Subclasses](#svg-element-classes)
   * [Extraction and Manipulation of SVG Elements](#extraction-and-manipulation-of-svg-elements-readsvgcpp)
-* [Compilation and Running](#compilation-and-running)
+* [Compilation and Execution](#compilation-and-execution)
   * [Compilation](#compilation)
+  * [Execution](#execution)
 
 
 ## Accomplished Tasks
@@ -65,13 +66,13 @@ Firstly, we declared every subclass and function in SVGElement.hpp, secondly we 
 
 - With the apply_transformation function, we manage to idenify the transformation to be applicated to each individual element, as well as the parameters related to it, and execute that respective transformation, with the calls to the respective member-function.
 
-## Compilation and Running
+## Compilation and Execution
 
 On the project´s main directory run:
 
 <a id="compilation"></a>**Compilation:** $ make clean all
 
-**Running:** $ ./test
+<a id="execution"></a>**Execution:** $ ./test
 
 
 
