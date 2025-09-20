@@ -7,7 +7,7 @@
 
 <div align="center">
 
-| Nome           | Número      |
+| Name           | Númber      |
 |----------------|-------------|
 | Leonor Azevedo | up202304040 |
 | Maria Sousa    | up202307037 |
