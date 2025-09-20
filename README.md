@@ -1,9 +1,9 @@
 <img src='https://sigarra.up.pt/feup/pt/imagens/LogotipoSI' width="30%"/>
 
-<h3 align="center">Licenciatura em Engenharia Informática e Computação<br>L.EIC009 - Programação<br> 2023/2024 </h3>
+<h3 align="center">BSc in Informatics and Computing Engineering<br>L.EIC009 - Programming<br> 2023/2024 </h3>
 
 ---
-<h3 align="center"> Colaboradores &#129309 </h2>
+<h3 align="center"> Collaborators &#129309 </h2>
 
 <div align="center">
 
@@ -13,7 +13,7 @@
 | Maria Sousa    | up202307037 |
 | Tomás Morais   | up202303834 |
 
-Nota : 19,4
+Grade : 19,4
 
 </div>
 
