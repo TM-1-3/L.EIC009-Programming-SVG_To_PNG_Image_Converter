@@ -85,7 +85,3 @@ make clean all
 
 ```bash
 ./test
-
-
-```bash
-make clean all
